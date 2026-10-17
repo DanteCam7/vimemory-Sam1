@@ -1,4 +1,4 @@
-.hero { padding: clamp(2.5rem, 6vw, 5rem) 0 clamp(3.5rem, 7vw, 6rem); }
+.hero { padding: clamp(2.5rem, 6vw, 5rem) 0 clamp(3.5rem, 7vw, 6rem); overflow-x: clip; }
 
 .hero__inner {
 	display: grid;
@@ -39,7 +39,8 @@
 
 .hero__visual img { position: absolute; }
 
-.hero__crowny { width: 54%; left: 21%; bottom: 47%; scale: -1 1; }
+.hero__crowny { position: absolute; width: 54%; left: 21%; bottom: 47%; }
+.hero__visual .hero__crowny img { position: static; width: 100%; scale: -1 1; }
 
 .hero__stack { position: absolute; width: 66%; left: 17%; bottom: 0; container-type: inline-size; }
 
@@ -261,7 +262,10 @@
 
 .about__visual { display: grid; place-items: center; }
 
-.about__crowny { width: 92%; max-width: 480px; scale: -1 1; }
+.about { overflow-x: clip; }
+
+.about__crowny { width: 92%; max-width: 480px; }
+.about__crowny img { width: 100%; scale: -1 1; }
 
 .about__text { margin: 1.25rem 0 1.75rem; }
 
@@ -285,7 +289,7 @@
 	border: var(--border) solid var(--accent);
 }
 
-.testimonial { background: var(--cream-brand); }
+.testimonial { background: var(--cream-brand); overflow-x: clip; }
 
 .testimonial__card {
 	display: grid;
@@ -312,6 +316,7 @@
 .testimonial__author { font-size: 0.85rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink); }
 
 .testimonial__crowny { width: clamp(180px, 22vw, 280px); }
+.testimonial__crowny img { width: 100%; }
 
 .contact__illus { width: 180px; margin-top: 2.5rem; }
 
