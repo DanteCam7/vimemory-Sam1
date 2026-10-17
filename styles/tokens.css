@@ -1,0 +1,42 @@
+:root {
+	--paper: #FFFFFF;
+	--cream-50: #FBFAF6;
+	--cream-brand: #F5EFE6;
+
+	--sage-100: #E9F1EC;
+	--sage-200: #D8E2DA;
+	--sage-700: #7DA99A;
+	--sage-800: #5E8A7B;
+	--sage-ink: #2C5547;
+
+	--dusty-blue: #9BBEC8;
+	--dusty-100: #E6F0F3;
+	--dusty-ink: #2D6577;
+
+	--accent: #CB3910;
+	--accent-hover: #B5320E;
+	--accent-shadow: #8A2608;
+	--accent-brand: #E8391C;
+	--accent-100: #F9E4DC;
+	--on-accent: #FFFFFF;
+
+	--ink: #1A1A1A;
+	--ink-muted: #5C5C5C;
+	--line: #E5E5E5;
+	--line-strong: #D0D0D0;
+	--star: #F0A030;
+
+	--font-family: 'Poppins', system-ui, sans-serif;
+	--font-display: 'Nunito', 'Poppins', system-ui, sans-serif;
+
+	--radius: 12px;
+	--border: 2px;
+	--lift: 4px;
+
+	--container: 1200px;
+	--gutter: 1.5rem;
+	--section-gap: clamp(4.5rem, 9vw, 7rem);
+
+	--transition-fast: 0.15s ease;
+	--transition-base: 0.3s ease;
+}
